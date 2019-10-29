@@ -3,4 +3,5 @@ node_js:
   - "6"
 deploy:
   provider: npm
+  email: "travis@kurviger.de"
   api_key: $NPM_AUTH_TOKEN 
